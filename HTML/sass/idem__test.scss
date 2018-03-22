@@ -1,0 +1,168 @@
+// fonts
+$font-stack   : Helvetica, sans-serif;
+// colors
+$header-color : #f00;
+$block-color  : #0f0;
+$footer-color : #00f;
+$gray-color   : #C4C4C4;
+$primary-color: #030;
+// sizes
+$main-width   : 768px;
+$first-line__big-square       : 492px;
+$first-line__small-square     : 241px;
+$second-line__rectangle-height: 155px;
+$second-line__rectangle-width : 241px;
+$third-line__rectangle-width  : 493px;
+$fourth-line__square          : 492px;
+
+// style for a 768px and more width
+
+body, html {
+    border    : 0;
+    margin    : 0;
+    padding   : 0;
+
+}
+main
+{
+    border    : 0;
+    margin    : auto;
+    padding   : 0;
+    width     : $main-width;
+}
+header, footer
+{
+    background-color: $gray-color;
+    height    : 90px;
+    text-align: center;
+
+    width     : 100%;
+}
+.block
+{
+    background-color:$block-color;
+    display   : inline-block;
+    height    : 25px;
+    position  : relative;
+}
+
+// first line
+.a
+{
+    height    : $first-line__big-square;
+    left      : 13px;
+    top       : 10px;
+    width     : $first-line__big-square;
+}
+.b, .c
+{
+    height    : $first-line__small-square;
+    width     : $first-line__small-square;
+}
+.b
+{
+    left      : 18px;
+    top       : -241px;
+}
+.c
+{
+    left      : 514px;
+    top       : -236px;
+
+}
+
+// second line
+.d, .e, .f
+{
+    height    : $second-line__rectangle-height;
+    left      : -232px;
+    top       : -71px;
+    width     : $second-line__rectangle-width;
+}
+.e
+{
+    left      : -226px;
+}
+.f
+{
+    left      : 514px;
+    top       : -231px;
+}
+
+// third line
+.g, .h {
+    height    : $second-line__rectangle-height;
+    left      : -232px;
+    width     : $second-line__rectangle-width;
+}
+.g {
+    width     : $third_line__rectangle-width;
+    top       : -66px;
+}
+.h {
+    left      : 514px;
+    top       : -311px;
+}
+
+// fourth line
+.i, .k {
+    height    : $first-line__small-square;
+    width     : $first-line__small-square;
+}
+.i {
+    left      : -232px;
+    top       : -61px;
+}
+.j {
+    height    : $fourth-line__square;
+    left      : 265px;
+    top       : -307px;
+    width     : $fourth-line__square;
+}
+.k {
+    left      : -483px;
+    top       : -307px;
+}
+
+// fifth line
+.l, .m {
+    height    : $second-line__rectangle-width;
+    left      : 13px;
+    top       : -301px;
+}
+.l {
+    width     : $second-line__rectangle-width;
+}
+.m {
+    width     : $first-line__big-square;
+    left      : 20px;
+}
+
+// sixth line
+.n, .o, .p {
+    height    : $second-line__rectangle-height;
+    left      : 13px;
+    top       : -296px;
+    width     : $first-line__small-square;
+}
+.o {
+    left      : 20px;
+}
+.p {
+    left      : 26px;
+}
+
+// section
+section {
+    height    : 1761px;
+}
+
+// style for a width that less than 768px (target : 320px)
+
+@media (max-width:768px)
+{
+    body
+    {
+        background-color:red;
+    }
+}

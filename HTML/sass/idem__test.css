@@ -1,0 +1,117 @@
+body, html {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+main {
+  border: 0;
+  margin: auto;
+  padding: 0;
+  width: 768px; }
+
+header, footer {
+  background-color: #C4C4C4;
+  height: 90px;
+  text-align: center;
+  width: 100%; }
+
+.block {
+  background-color: #0f0;
+  display: inline-block;
+  height: 25px;
+  position: relative; }
+
+.a {
+  height: 492px;
+  left: 13px;
+  top: 10px;
+  width: 492px; }
+
+.b, .c {
+  height: 241px;
+  width: 241px; }
+
+.b {
+  left: 18px;
+  top: -241px; }
+
+.c {
+  left: 514px;
+  top: -236px; }
+
+.d, .e, .f {
+  height: 155px;
+  left: -232px;
+  top: -71px;
+  width: 241px; }
+
+.e {
+  left: -226px; }
+
+.f {
+  left: 514px;
+  top: -231px; }
+
+.g, .h {
+  height: 155px;
+  left: -232px;
+  width: 241px; }
+
+.g {
+  width: 493px;
+  top: -66px; }
+
+.h {
+  left: 514px;
+  top: -311px; }
+
+.i, .k {
+  height: 241px;
+  width: 241px; }
+
+.i {
+  left: -232px;
+  top: -61px; }
+
+.j {
+  height: 492px;
+  left: 265px;
+  top: -307px;
+  width: 492px; }
+
+.k {
+  left: -483px;
+  top: -307px; }
+
+.l, .m {
+  height: 241px;
+  left: 13px;
+  top: -301px; }
+
+.l {
+  width: 241px; }
+
+.m {
+  width: 492px;
+  left: 20px; }
+
+.n, .o, .p {
+  height: 155px;
+  left: 13px;
+  top: -296px;
+  width: 241px; }
+
+.o {
+  left: 20px; }
+
+.p {
+  left: 26px; }
+
+section {
+  height: 1761px; }
+
+@media (max-width: 768px) {
+  body {
+    background-color: red; } }
+
+/*# sourceMappingURL=idem__test.css.map */
